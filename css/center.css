@@ -1,0 +1,149 @@
+.Nmiddlecontent{
+	background-color: rgb(246,246,246);
+}
+.NmiddleTitle{
+	height: 44px;
+	background-color: #F1F1F1;
+	width: 100%;
+	text-align: center;
+}
+.NmiddleTitle span{
+	line-height: 44px;
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #333333;
+}
+.NmiddleTitle span:nth-child(2){
+	margin-right: 100px;
+}
+
+.Nmiddlecontents{
+	width: 1024px;
+	height: 504px;
+	background: #FFFFFF;
+	border-radius: 2px;
+	margin: 0 auto;
+}
+.NmiddleLeft{
+	width: 180px;
+	height: 504px;
+	display: inline-block;
+	border-right: 1px solid #D8D8D8;
+}
+.NmiddleRight{
+	width: 843px;
+    height: 504px;
+    background: #fff;
+    display: inline-block;
+}
+/*左边包含*/
+.NmiddleLeftList{
+	height: 124px;
+    text-align: center;
+    cursor:pointer;
+    border: 1px solid white;
+    /*border-right: 1px solid #D8D8D8;*/
+}
+.NmiddleLeftListImg{
+	height: 40px;
+    width: 30px;
+    background: url(https://cdns.007vin.com/img/p_wo.png) no-repeat center center;
+    margin:25px auto 20px;
+}
+.NmiddleLeftListImgOne{
+	background-position-y: 1px;
+}
+.NmiddleLeftListImgTwo{
+	background-position-y: -80px;
+}
+.NmiddleLeftListImgThree{
+	background-position-y: -160px;
+}
+.NmiddleLeftListImgFour{
+	background-position-y: -240px;
+}
+/*mess list*/
+.NmiddleLeftListImgOnehas{
+	padding-top: 40px;
+}
+.NmiddleRightMessList{
+	width: 100%;
+	height: 44px;
+	line-height: 44px;
+}
+.NmiddleRightMessListLeft,.NmiddleRightMessListRight{
+	margin:0 15px 0 121px;
+	text-align: right;
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #333333;
+	display: inline-block;
+}
+.NmiddleRightMessListRight{
+	width: 180px;
+	text-align: left;
+	margin: 0;
+}
+.NmiddleRightMessListRightPwd{
+	color: #0D6FB8;
+	margin: 0;
+}
+.NmiddleRightChangeBtn{
+	width: 80px;
+	height: 32px;
+	background: #1AA0F3;
+	border-radius: 2px;
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 32px;
+	cursor:pointer;
+	display: inline-block;
+	text-align: center;
+}
+/*two has*/
+.NmiddleLeftListImgTwohas{
+	height: 454px;
+	width: 742px;
+	margin: 20px 50px;
+	position: relative;
+}
+/*弹框*/
+.FloatIndexOne{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.60);
+}
+.FloatIndexOneMess{
+	width: 320px;
+	height: 240px;
+	background: #FFFFFF;
+	border: 1px solid #D8D8D8;
+	border-radius: 4px;
+	/*position: relative;*/
+	font-family: PingFangSC-Regular;
+	font-size: 18px;
+	color: #666666;
+	line-height: 240px;
+	/*margin: 20% auto;*/
+	text-align: center;
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.FloatIndexOneMess div{
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	right: 13px;
+    top: 13px;
+	background: url(https://cdns.007vin.com/img/p_wo.png) no-repeat center center;
+	background-position-y: -492px;
+}

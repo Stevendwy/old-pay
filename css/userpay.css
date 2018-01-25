@@ -1,0 +1,308 @@
+.NmiddleLeft{
+	float: left;
+}
+.UserPay{
+	margin-top: 20px;
+}
+.NmiddleRight{
+	width: 843px;
+	height: 504px;
+	background: #fff;
+	float: right;
+}
+.PayTop{
+	height: 244px;
+	width: 100%;
+	margin: 0 auto;
+}
+.DayCard{
+	flex: 1;
+	cursor:pointer;
+}
+.YearCard{
+	flex: 1;
+	cursor:pointer;
+}
+.GreenBackGround,.BlueBackground{
+	width: 200px;
+	height: 204px;
+    color: #fff;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.GreenBackGround{
+	background: url(https://cdns.007vin.com/img/p_green.png);
+}
+.BlueBackground{
+	background: url(https://cdns.007vin.com/img/p_blue.png);
+}
+.GreenBackGround .FristSpan,.BlueBackground .FristSpan{
+	font-size: 20px;
+}
+.GreenBackGround .SecondSpan,.BlueBackground .SecondSpan{
+	font-size: 28px;
+}
+.GreenBackGround .LastSpan,.BlueBackground .LastSpan{
+	font-size: 14px;
+}
+.IconDay,.IconYear{
+	width: 20px;
+	height: 20px;
+	margin: 20px auto;
+	background: url(https://cdns.007vin.com/img/p_dian.png) no-repeat;
+}
+.CenterMsg{
+    width: 802px;
+    height: 169px;
+    margin: 63px auto 10px;
+    border: 1px solid #d8d8d8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #666666;
+}
+.CenterMsg b{
+	margin: 5px;
+	font-family: PingFangSC-Medium;
+	font-size: 18px;
+	color: #333333;
+}
+.CenterMsg span{
+	font-size: 14px;
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #333333;
+}
+.CenterMsg ol{
+	list-style-type: disc;
+    width: 79px;
+    margin: 10px;
+    font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #999999;
+}
+.PayBody{
+	position: relative;
+}
+.toPayContainer{
+	position: absolute;
+    bottom: 13px;
+    right: 34px;
+    width: 160px;
+}
+.NeedPrice{
+	color: #666;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.NeedPrice>span{
+	color: #FF9238;
+    font-size: 28px;
+}
+.toNewPayContainer{
+	width: 160px;
+    height: 32px;
+    background: #FF7300;
+    border-radius: 4px;
+    color: #fff;
+    padding-top: 13ppx;
+    text-align: center;
+    line-height: 32px;
+    cursor: pointer;
+}
+.toNewPayContainer:hover{
+	background:#FF9238;
+}
+.Nmiddlecontent{
+	position: relative;
+}
+.UserPayment{
+	/*position: absolute;
+	top:0;*/
+	background: #F1F1F1;
+	/*left:0;*/
+	width: 100%;
+	height: 100%;
+}
+.PaymentHead{
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #333333;
+}
+.PaymentHead>span{
+	color:#FF3232;
+}
+.PaymentBody{
+	width: 1024px;
+    margin: 0 auto;
+    background: #fff;
+    background: rgba(255,255,255,0.90);
+    border-radius: 4px;
+}
+.PaymentBodyHead{
+	height: 40px;
+}
+.PaymentBodyHead>div{
+	background: #7ED321;
+    width: 110px;
+    height: 40px;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+}
+.PaymentBodyHead>span{
+	float: left;
+    width: 147px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #999999;
+}
+.PaymentBodyMain{
+	 display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.PaymentBodyMain>p{
+	font-size: 14px;
+	color: #333333;
+}
+
+.PaymentBodyMain>b{
+	font-size: 18px;
+	color: #333333;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.PaymentBodyMain>span{
+	font-size: 14px;
+	color: #333333;
+}
+
+.PaymentBodyMain>p>span{
+	color:#FF3232;
+}
+
+.PaymentBodyMain>div>ol{
+	list-style-type: disc;
+    width: 100px;
+    font-size: 14px;
+    color: #999999;
+}
+
+.Dcode{
+	background: #FFFFFF;
+	border: 1px solid #D8D8D8;
+	border-radius: 4px;
+	text-align: center;
+    width: 142px;
+    height: 142px;
+}
+.Dcode>img{
+	width: 140px;
+	height: 140px;
+}
+
+
+.EndTime{
+	font-size: 14px;
+	color: #666666;
+}
+.msgModal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 160px;
+    height: 110px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.80);
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+
+
+.msgButtons{
+	display: flex;
+    flex: 1;
+    width: 100%;
+    border-top: 1px solid #fff;
+    cursor:pointer;
+}
+
+.msgButtons>div{
+	display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.msgButtons>div:last-child{
+	border-left:1px solid #fff;
+	color:#3D7CFF;
+}
+
+.msgAlert{
+	display: flex;
+    flex: 2;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.ChoosePayContainer{
+	display: flex;
+}
+
+.haveTrouble{
+	padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.haveTrouble span{
+    color: #1AA0F3;
+	cursor: pointer;
+}
+.trobleDrop>span>img{
+	vertical-align: middle;
+}
+.linkClick{
+    text-decoration: underline;
+	
+}
+.onButton{
+	display: flex;
+    align-items: center;
+    flex: 1;
+    border-top: 1px solid #fff;
+    width: 100%;
+    justify-content: center;
+    color:#1AA0F3;
+    cursor:pointer
+}
+.msgAlert p{
+	text-align: center;
+}
+
+
